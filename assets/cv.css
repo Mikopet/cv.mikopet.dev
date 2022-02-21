@@ -52,8 +52,8 @@
 }
 
 header[role=banner] {
-	background:#5a5a5a;
-	border-bottom:4px solid #a8a8a8;
+	background:#384858;
+	border-bottom:4px solid #33a4cc;
 	padding: 19px 0;
 	overflow: hidden;
 }
@@ -79,12 +79,12 @@ header hgroup {
 }
 
 header hgroup h1 {
-	color:#aaa;
+	color:#ddd;
 	font-family:'DroidSansBold', Arial, sans-serif;
 }
 
 header hgroup h2 {
-	color:#cecece;
+	color:#bbb;
 	font-style: italic;
 	text-shadow: 1px 1px 0 rgba(0,0,0,.3);
 }
@@ -211,7 +211,7 @@ section[role=main] h3:after, h3:before {
 }
 
 section[role=main] h3:before {
-	background-color: #a8a8a8;
+	background-color: #3878FF;
 	border-radius: 25px;
 }
 		
