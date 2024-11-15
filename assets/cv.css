@@ -195,19 +195,28 @@ section[role=main] > div {
 
 section[role=main] h3 {
 	border-bottom: 1px solid #e1e1e1;
-	padding: 0 0 20px 60px;
+	padding: 0 0 10px;
 	margin-top: 0px;
-	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
 	}
-
-section[role=main] h3:after, h3:before {
-	content: ' ';
-	display: block;
+section[role=main] h3:after { display: none; }
+section[role=main] h3:before {
+	display: inline-flex;
+    flex-flow: column nowrap;
 	height: 50px;
 	left: 0;
-	position: absolute;
 	top: -15px;
 	width: 50px;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 10px;
+	color: #FFF;
+	align-items: center;
+	justify-content: center;
+    position: initial;
 }
 
 section[role=main] h3:before {
@@ -215,37 +224,35 @@ section[role=main] h3:before {
 	border-radius: 25px;
 }
 		
-section[role=main] h3:after {
+section[role=main] h3:before {
 	font-family: "Font Awesome 5 Free";
 	color: #fff;
-	padding: 13px;
 	font-weight: 900;
 }
 
-section[role=main] .about h3:after {
+section[role=main] .about h3:before {
 	content: "\f05b";
 }
 
-section[role=main] .skills h3:after {
+section[role=main] .skills h3:before {
 	content: "\f126";
 }
 
-section[role=main] .experience h3:after {
+section[role=main] .experience h3:before {
 	content: "\f1ad";
 }
 
-section[role=main] .edu h3:after {
+section[role=main] .edu h3:before {
 	content: "\f19d";
 }
 
-section[role=main] .goals h3:after {
+section[role=main] .goals h3:before {
 	content: "\f140";
 }
 
-section[role=main] .contact h3:after {
+section[role=main] .contact h3:before {
 	content: "\f2bb";
 }
-	
 	
 .experience ul, .edu ul {
 	margin-left: 60px;
