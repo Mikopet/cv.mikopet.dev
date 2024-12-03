@@ -375,12 +375,12 @@ table {
 	margin: 0 auto;
 }
 
-thead {
+th {
 	border-bottom: 1px solid;
 	font-weight: 600;
 }
 
-td {
+td,th {
 	border-right: 1px dotted;
 	padding: 2px;
 	text-align: center;
@@ -395,6 +395,10 @@ tr:nth-last-child(1) {
 }
 
 td:nth-last-child(1) {
+	border-right: 0px;
+}
+
+th:nth-last-child(1) {
 	border-right: 0px;
 }
 
